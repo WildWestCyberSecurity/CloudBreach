@@ -1,0 +1,9 @@
+aiohttp
+argparse
+asyncio
+colorama
+dnspython
+ipwhois
+requests
+tqdm
+whois
