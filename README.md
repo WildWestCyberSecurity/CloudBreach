@@ -1,5 +1,9 @@
 # 🌩️ CloudBreach.py - Cloudflare Origin IP Detection and Bypass Tool
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
+
 ## 🚀 Overview
 `CloudBreach.py` is a powerful Python tool designed to help identify origin IP addresses behind Cloudflare-protected domains. By analyzing HTTP responses, performing WHOIS lookups, and checking SSL certificates, this script assigns a "score" to each IP to determine the likelihood of it being the actual origin server.
 
@@ -10,6 +14,13 @@
 - **SSL Certificate Matching**: Compares SSL certificates to validate origin servers.
 - **Content Hashing**: Ensures content consistency between Cloudflare and direct IP access.
 - **Color-Coded Scoring**: Easy interpretation of IP scores based on various checks.
+
+## 📊 GitHub Stats
+
+![GitHub Stars](https://img.shields.io/github/stars/WildWestCyberSecurity/CloudBreach)
+![GitHub Forks](https://img.shields.io/github/forks/WildWestCyberSecurity/CloudBreach)
+![GitHub Issues](https://img.shields.io/github/issues/WildWestCyberSecurity/CloudBreach)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/WildWestCyberSecurity/CloudBreach)
 
 ## 📋 Requirements
 
@@ -74,6 +85,10 @@ This project is licensed under the MIT License.
 
 ## 💬 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📈 Repo Activity
+
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=WildWestCyberSecurity&repo=CloudBreach&theme=github)
 
 ## 🔗 References
 - [aiohttp Documentation](https://docs.aiohttp.org/)
